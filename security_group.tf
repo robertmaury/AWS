@@ -2,14 +2,14 @@ resource "aws_security_group" "aws-demo-security-group" {
   name   = "${var.name}-aws-demo"
   vpc_id = aws_vpc.aws-demo.id
 
-  tags = {
-    Name = "${var.name}-aws-demo"
-    Owner = "rmaury"
-    Purpose = "aws-demo"
-    "Created Date" = "7-21-2021"
-    Department = "SA"
-    "Estimated Expiry" = "7-21-2022"
-  }
+  # tags = {
+  #   Name = "${var.name}-aws-demo"
+  #   Owner = "rmaury"
+  #   Purpose = "aws-demo"
+  #   "Created Date" = "7-21-2021"
+  #   Department = "SA"
+  #   "Estimated Expiry" = "7-21-2022"
+  # }
 
   ingress {
     to_port     = 22

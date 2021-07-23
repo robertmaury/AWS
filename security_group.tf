@@ -1,5 +1,5 @@
 resource "aws_security_group" "aws-demo-security-group" {
-  name   = "${var.name}-aws-demo"
+  name   = "rmaury-aws-demo"
   vpc_id = aws_vpc.aws-demo.id
 
   tags = {

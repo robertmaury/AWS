@@ -3,11 +3,11 @@ resource "aws_security_group" "aws-demo-security-group" {
   vpc_id = aws_vpc.aws-demo.id
 
   tags = {
-    Name = "rmaury-aws-demo"
-    Owner = "rmaury"
-    Purpose = "aws-demo"
-    "Created Date" = "7-21-2021"
-    Department = "SA"
+    Name               = "rmaury-aws-demo"
+    Owner              = "rmaury"
+    Purpose            = "aws-demo"
+    "Created Date"     = "7-21-2021"
+    Department         = "SA"
     "Estimated Expiry" = "7-21-2022"
   }
 
@@ -15,7 +15,7 @@ resource "aws_security_group" "aws-demo-security-group" {
     to_port     = 22
     from_port   = 22
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = ["10.11.12.13/32"]
   }
 
   egress {

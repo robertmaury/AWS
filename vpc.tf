@@ -6,11 +6,11 @@ resource "aws_vpc" "aws-demo" {
   # }
 
   tags = {
-    Name = "rmaury-aws-demo"
-    Owner = "rmaury"
-    Purpose = "aws-demo"
-    "Created Date" = "7-21-2021"
-    Department = "SA"
+    Name               = "rmaury-aws-demo"
+    Owner              = "rmaury"
+    Purpose            = "aws-demo"
+    "Created Date"     = "7-21-2021"
+    Department         = "SA"
     "Estimated Expiry" = "7-21-2022"
   }
 }

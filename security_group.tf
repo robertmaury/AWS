@@ -6,9 +6,9 @@ resource "aws_security_group" "aws-demo-security-group" {
     Name               = "rmaury-aws-demo"
     Owner              = "rmaury"
     Purpose            = "aws-demo"
-    "Created Date"     = "8-9-2021"
+    "Created Date"     = "8-18-2021"
     Department         = "SA"
-    "Estimated Expiry" = "8-9-2022"
+    "Estimated Expiry" = "8-18-2022"
   }
 
   ingress {

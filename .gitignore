@@ -3,3 +3,4 @@ accurics_report.html
 accurics_report.json
 config
 terraform.*
+tf.plan

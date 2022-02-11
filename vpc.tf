@@ -9,8 +9,8 @@ resource "aws_vpc" "aws-demo" {
     Name               = "rmaury-aws-demo"
     Owner              = "rmaury"
     Purpose            = "aws-demo"
-    "Created Date"     = "8-18-2021"
+    "Created Date"     = "2-11-2022"
     Department         = "SA"
-    "Estimated Expiry" = "8-18-2022"
+    "Estimated Expiry" = "2-11-2023"
   }
 }

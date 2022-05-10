@@ -1,8 +1,3 @@
-variable "name" {
-  description = "Used to prepend objects with your name"
-  type        = string
-}
-
 terraform {
   required_providers {
     aws = {

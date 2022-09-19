@@ -4,3 +4,5 @@ accurics_report.json
 config
 terraform.*
 tf.plan
+.DS_Store
+1660139184540.json

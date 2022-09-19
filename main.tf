@@ -1,7 +1,7 @@
-variable "name" {
-  description = "Used to prepend objects with your name"
-  type        = string
-}
+#variable "name" {
+#  description = "Used to prepend objects with your name"
+#  type        = string
+#}
 
 terraform {
   required_providers {
@@ -13,5 +13,5 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-west-2"
+  region = "us-east-1"
 }

@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AWS_1699881965888-push-trigger-input-set
+  identifier: Build_AWS_1699881965888pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_AWS_1699881965888
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

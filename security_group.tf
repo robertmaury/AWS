@@ -27,13 +27,13 @@ resource "aws_security_group" "aws-demo-security-group" {
 }
 
 resource "aws_security_group" "ghost-demo" {
-  name   = "rmaury-aws-demo"
+  name   = "rmaury-ghost-demo"
   vpc_id = aws_vpc.aws-demo.id
 
   tags = {
     Name               = "rmaury-ghost-demo"
     Owner              = "rmaury"
-    Purpose            = "aghost-demo"
+    Purpose            = "ghost-demo"
     "Created Date"     = "12-21-2023"
     Department         = "SA"
     "Estimated Expiry" = "12-21-2024"
